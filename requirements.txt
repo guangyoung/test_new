@@ -1,0 +1,11 @@
+yfinance
+pandas
+panel
+bokeh
+plotly
+requests
+numpy
+scipy
+matplotlib
+aiohttp
+urllib3
