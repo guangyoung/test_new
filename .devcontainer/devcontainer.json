@@ -6,7 +6,7 @@
       "extensions": ["ms-python.python", "ms-toolsai.jupyter", "ms-toolsai.jupyter-renderers", "ms-python.vscode-pylance"],
       "settings": {
         "python.defaultInterpreterPath": "/usr/local/bin/python",
-        "jupyter.kernel.default": "python3"
+        "python.terminal.activateEnvironment": true
       }
     }
   },
