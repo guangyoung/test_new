@@ -9,7 +9,8 @@
         "ms-toolsai.jupyter"
       ],
       "settings": {
-        "python.defaultInterpreterPath": "/usr/local/bin/python"
+        "jupyter.askForKernelDisplayName": false,
+        "jupyter.defaultInterpreter": "/usr/local/bin/python"
       }
     }
   },
