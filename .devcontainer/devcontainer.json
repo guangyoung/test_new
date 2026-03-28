@@ -8,7 +8,7 @@
     "codespaces": {
       // BAGIAN INI AKAN OTOMATIS MEMBUKA FILE SAAT STARTUP
       "openFiles": [
-        "nama_file_kamu.ipynb" 
+        "test_engine_QG_v16_2.ipynb" 
       ]
     }
   },
