@@ -10,3 +10,4 @@ matplotlib
 aiohttp
 urllib3
 ipywidgets
+jupyter_bokeh
