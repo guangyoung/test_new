@@ -3,8 +3,24 @@
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
   "customizations": {
     "vscode": {
-      "extensions": ["ms-python.python", "ms-toolsai.jupyter", "ms-toolsai.jupyter-renderers"]      
+      "extensions": [
+        "ms-python.python", 
+        "ms-toolsai.jupyter", 
+        "ms-toolsai.jupyter-renderers"
+      ],
+      "settings": {
+        // MENYEMBUNYIKAN POP-UP KERNEL (AUTO-SELECT)
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "jupyter.notebookEditor.defaultKernel": "/usr/local/bin/python",
+        "jupyter.kernels.filter": ["/usr/local/bin/python"], 
+        "python.selectInterpreter": "/usr/local/bin/python",
+        
+        // OPTIMASI TAMPILAN UNTUK KLIEN
+        "notebook.output.textLineLimit": 100,
+        "jupyter.widgetContextualHelp": true
+      }
     }
   },
-  "postCreateCommand": "pip install -r requirements.txt"
+  // MENGGUNAKAN updateContentCommand AGAR INSTALASI JALAN DI BACKGROUND
+  "updateContentCommand": "pip install -r requirements.txt"
 }
