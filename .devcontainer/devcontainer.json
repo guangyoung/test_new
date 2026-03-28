@@ -5,7 +5,6 @@
     "vscode": {
       "extensions": ["ms-python.python", "ms-toolsai.jupyter", "ms-toolsai.jupyter-renderers"],
       "settings": {
-        // Mengunci jalur interpreter ke Python 3.11 di Linux Codespaces
         "python.defaultInterpreterPath": "/usr/local/bin/python",
         "jupyter.notebookEditor.defaultKernel": "/usr/local/bin/python",
         "python.selectInterpreter": "/usr/local/bin/python"
