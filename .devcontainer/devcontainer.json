@@ -17,5 +17,5 @@
     }
   },
 
-  "postCreateCommand": "pip install -r requirements.txt && python -m ipykernel install --user --name simulation-env --display-name \"Python (simulation-env)\""
+  "postCreateCommand": "pip install -r requirements.txt ipykernel && python -m ipykernel install --sys-prefix --name python3 --display-name \"Python 3 (Codespaces)\""
 }
