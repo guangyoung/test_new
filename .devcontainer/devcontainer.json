@@ -1,15 +1,21 @@
 {
-  "name": "Simulation",
-  "image": "mcr.microsoft.com/devcontainers/python:3.11",
-  "customizations": {
-    "vscode": {
-      "extensions": ["ms-python.python", "ms-toolsai.jupyter", "ms-toolsai.jupyter-renderers", "ms-python.vscode-pylance"],
+  "name": "Simulation",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.jupyter-renderers",
+        "ms-python.vscode-pylance"
+      ],
       "settings": {
         "python.defaultInterpreterPath": "/usr/local/bin/python",
         "python.terminal.activateEnvironment": true
       }
-    }
-  },
-  "postCreateCommand": "pip install -r requirements.txt",
-  "postStartCommand": "python -m ipykernel install --user --name=python3 --display-name='Python 3 (Otomatis)'"
+    }
+  },
+
+  "postCreateCommand": "pip install -r requirements.txt && python -m ipykernel install --user --name simulation-env --display-name \"Python (simulation-env)\""
 }
