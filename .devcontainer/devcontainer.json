@@ -4,7 +4,13 @@
   "customizations": {
     "vscode": {
       "extensions": ["ms-python.python", "ms-toolsai.jupyter", "ms-toolsai.jupyter-renderers"]      
-    }
+    },
+    "codespaces": {
+      // BAGIAN INI AKAN OTOMATIS MEMBUKA FILE SAAT STARTUP
+      "openFiles": [
+        "nama_file_kamu.ipynb" 
+      ]
+    }
   },
   "postCreateCommand": "pip install -r requirements.txt"
 }
