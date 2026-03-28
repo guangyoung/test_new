@@ -10,7 +10,9 @@
       ],
       "settings": {
         "python.defaultInterpreterPath": "/workspaces/${localWorkspaceFolderBasename}/.venv/bin/python",
-        "jupyter.defaultKernel": "python3"
+        "jupyter.defaultKernel": "python3",
+        "jupyter.askForKernelRestart": false,
+        "jupyter.askForKernelSelection": false
       }
     }
   },
