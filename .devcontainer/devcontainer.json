@@ -14,5 +14,5 @@
     }
   },
 
-  "postCreateCommand": "pip install -r requirements.txt"
+  "postCreateCommand": "pip install -r requirements.txt $$ pip install jupyter ipykernel && python -m ipykernel install --user --name my_env --display-name 'Python (My Env)'"
 }
