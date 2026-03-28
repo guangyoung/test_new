@@ -6,16 +6,13 @@
     "vscode": {
       "extensions": [
         "ms-python.python",
-        "ms-toolsai.jupyter",
-        "ms-toolsai.jupyter-renderers",
-        "ms-python.vscode-pylance"
+        "ms-toolsai.jupyter"
       ],
       "settings": {
-        "python.defaultInterpreterPath": "/usr/local/bin/python",
-        "python.terminal.activateEnvironment": true
+        "python.defaultInterpreterPath": "/usr/local/bin/python"
       }
     }
   },
 
-  "postCreateCommand": "pip install -r requirements.txt ipykernel && python -m ipykernel install --sys-prefix --name python3 --display-name \"Python 3 (Codespaces)\""
+  "postCreateCommand": "pip install -r requirements.txt"
 }
