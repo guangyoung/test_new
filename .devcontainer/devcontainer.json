@@ -9,11 +9,10 @@
         "ms-toolsai.jupyter"
       ],
       "settings": {
-        "jupyter.askForKernelDisplayName": false,
-        "jupyter.defaultInterpreter": "/usr/local/bin/python"
+        "python.defaultInterpreterPath": "/usr/local/bin/python"
       }
     }
   },
 
-  "postCreateCommand": "pip install -r requirements.txt $$ pip install jupyter ipykernel && python -m ipykernel install --user --name my_env --display-name 'Python (My Env)'"
+  "postCreateCommand": "pip install -r requirements.txt"
 }
