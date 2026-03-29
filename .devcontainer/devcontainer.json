@@ -9,13 +9,10 @@
         "ms-toolsai.jupyter"
       ],
       "settings": {
-        "python.defaultInterpreterPath": "/workspaces/${localWorkspaceFolderBasename}/.venv/bin/python",
-        "jupyter.defaultKernel": "python3",
-        "jupyter.askForKernelRestart": false,
-        "jupyter.askForKernelSelection": false
+        "python.defaultInterpreterPath": "/usr/local/bin/python"
       }
     }
   },
 
-  "postCreateCommand": "python -m venv .venv && . .venv/bin/activate && pip install -r requirements.txt ipykernel && python -m ipykernel install --prefix .venv --name python3 --display-name \"Python 3 (venv)\""
+  "onCreateCommand": "pip install -r requirements.txt"
 }
