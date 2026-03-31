@@ -2,12 +2,6 @@
   "name": "Simulation",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
 
-  "features": {
-    "ghcr.io/devcontainers/features/python:1": {
-      "version": "3.13"
-    }
-  },
-
   "customizations": {
     "vscode": {
       "extensions": [
@@ -20,5 +14,5 @@
     }
   },
 
-  "onCreateCommand": "pip install -r requirements.txt && python3.13 -m pip install ipykernel notebook jupyter jupyterlab --user && python3.13 -m ipykernel install --user --name=python313 --display-name='Python 3.13'"
+  "onCreateCommand": "pip install -r requirements.txt"
 }
