@@ -14,5 +14,5 @@
     }
   },
 
-  "onCreateCommand": "pip install -r requirements.txt"
+  "onCreateCommand": "pip install -r requirements.txt && python3 -m pip install ipykernel -U && python3 -m ipykernel install --user"
 }
