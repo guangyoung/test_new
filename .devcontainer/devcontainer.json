@@ -14,5 +14,5 @@
     }
   },
 
-  "onCreateCommand": "pip install -r requirements.txt && pip install ipykernel && python3 -m ipykernel install --user --name python311 --display-name 'Python 3.11' && /usr/bin/python3.13 -m pip install ipykernel && /usr/bin/python3.13 -m ipykernel install --user --name python313 --display-name 'Python 3.13'"
+  "onCreateCommand": "pip install -r requirements.txt"
 }
