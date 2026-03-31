@@ -12,3 +12,4 @@ urllib3
 ipywidgets
 jupyter_bokeh
 jupyterlab
+ipykernel
